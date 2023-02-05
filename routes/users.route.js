@@ -183,7 +183,7 @@ router.post("/verify", async (request, response) => {
     }
 })
 // update password
-router.post('/changepassword/:email', auth, async function (request, response) {
+router.post('/changepassword/:email', async function (request, response) {
     try {
         let { password } = request.body;
         const { email } = request.params;
