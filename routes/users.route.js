@@ -5,7 +5,7 @@ import jwt from "jsonwebtoken";
 import nodemailer from "nodemailer";
 import rn from "random-number";
 import { auth } from "../middlewares/auth.js";
-const clienturl = "http://localhost:3000"
+const clienturl = "https://resilient-alfajores-4a4f33.netlify.app"
 
 const options = {
     min: 1000,
